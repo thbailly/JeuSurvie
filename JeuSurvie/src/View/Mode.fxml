@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" stylesheets="@style.css" prefHeight="50" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <Label fx:id="title" text="Paramètres de la partie" />
+
+    <Label text="Choix du mode de Jeu:"/>
+
+    <ChoiceBox fx:id="listMode"/>
+
+    <HBox alignment="CENTER">
+        <Label text="Mode de jeu sélectionné: "/>
+        <Label fx:id="labelMode"/>
+    </HBox>
+
+    <ChoiceBox fx:id="listJoueurs"/>
+
+    <HBox alignment="CENTER">
+        <Label text="Nombre de joueur(s) configuré(s): "/>
+        <Label fx:id="labelJoueur"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Button fx:id="closeButton" text="Revenir au menu"/>
+        <Button fx:id="playButton" text="Jouer"/>
+    </HBox>
+
+
+</VBox>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.LeaveButtonController">
+    <Label text="Jeu crée par"></Label>
+    <Label text="BAILLY Thibaut et BARLAND Estéban"></Label>
+    <Label text="Dans le cadre d'un projet JavaFx"></Label>
+
+    <Button text="Revenir au menu" fx:id="closeButton" onAction="#closeEvent"></Button>
+</VBox>

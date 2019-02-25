@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<VBox alignment="CENTER" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+
+    <TableView fx:id="listScores"/>
+
+    <Button text="Revenir au menu" fx:id="closeButton"/>
+</VBox>

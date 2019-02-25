@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <Label fx:id="title" text="Partie terminée"/>
+
+    <HBox alignment="CENTER">
+        <Label text="Temps: "/>
+        <Label fx:id="tempsLabel"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Label text="Nombre de vagues: "/>
+        <Label fx:id="wavesLabel"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Label text="Nombre de monstres tués: "/>
+        <Label fx:id="nbMonstersKilledLabel"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Label text="Entrer votre pseudo: "/>
+        <TextField fx:id="pseudoTextField" text="Entrez votre pseudo"/>
+        <Button text="Enregister votre score" fx:id="pseudoButton"/>
+    </HBox>
+
+
+    <Button text="Revenir à l'accueil" fx:id="closeButton"/>
+
+</VBox>

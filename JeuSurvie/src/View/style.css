@@ -1,0 +1,63 @@
+.root{
+    -fx-background-color: gray;
+    -fx-font-size: 20;
+    -fx-spacing: 20px;
+}
+
+.button{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.button:hover{
+    -fx-text-fill: #A6B6FE;
+}
+
+#title{
+    -fx-font-size: 60;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 0px 0px 100px 0px;
+}
+
+.context-menu {
+    -fx-background-color: black;
+}
+
+.menu-button{
+    -fx-background-color: black;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.menu-button .label{
+     -fx-text-fill: white;
+}
+
+.menu-item{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.menu-item:focused{
+    -fx-background-color: black;
+}
+
+.menu-item:focused .label{
+    -fx-text-fill: #A6B6FE;
+}
+
+.menu-item .label {
+     -fx-text-fill: white;
+}
+
+#gridpane{
+    -fx-vgap: 15;
+}
+
+.dialog-pane:header .header-panel{
+  -fx-background-color: gray;
+}

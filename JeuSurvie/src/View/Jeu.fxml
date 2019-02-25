@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <Button text="Quitter" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" fx:id="leaveButton"/>
+    <GridPane gridLinesVisible="true" AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0">
+        <rowConstraints>
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="25"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="25"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="25"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" percentWidth="25"/>
+        </columnConstraints>
+        <VBox GridPane.columnIndex="0" alignment="BASELINE_CENTER">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Timer"/>
+            <Label fx:id="timerLabel" text="00:00:00"/>
+        </VBox>
+        <VBox GridPane.columnIndex="1" alignment="BASELINE_CENTER">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wave"/>
+            <Label fx:id="nbWavesLabel" text="0"/>
+        </VBox>
+        <VBox GridPane.columnIndex="2" alignment="BASELINE_CENTER">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de monstres tués: "/>
+            <Label fx:id="nbMonstersKilledLabel" text="0"/>
+        </VBox>
+        <VBox GridPane.columnIndex="3" alignment="BASELINE_CENTER">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Santé du joueur: "/>
+            <Label fx:id="hpLabel" text="0"/>
+        </VBox>
+    </GridPane>
+</AnchorPane>
